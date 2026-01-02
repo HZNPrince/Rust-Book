@@ -1,11 +1,11 @@
-use minigrep::{self, Config, search_case_insensitive};
+use minigrep::Config;
 use std::{env, process};
 
 fn main() {
     let args: Vec<String> = env::args().collect();
 
     let config = Config::build(&args).unwrap_or_else(|err| {
-        println!("Problem passing arguments : {err}");
+        eprintln!("Problem passing arguments : {err}");
         process::exit(1);
     });
 
@@ -13,7 +13,7 @@ fn main() {
     println!("In file {}", config.file_path);
 
     if let Err(e) = minigrep::run(config) {
-        println!("Application Error : {e}");
+        eprintln!("Application Error : {e}");
         process::exit(1);
     }
 }
@@ -48,7 +48,7 @@ Trust me.";
 
         assert_eq!(
             vec!["Rust:", "Trust me."],
-            search_case_insensitive(query, contents)
+            minigrep::search_case_insensitive(query, contents)
         );
     }
 }
