@@ -1,0 +1,1 @@
+/Users/aster27/Desktop/github/Rust_book/Concepts/crates_publish/target/debug/libcrates_publish.rlib: /Users/aster27/Desktop/github/Rust_book/Concepts/crates_publish/target/package/crates_publish-0.1.0/src/lib.rs

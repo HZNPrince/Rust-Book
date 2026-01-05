@@ -1,0 +1,10 @@
+[package]
+name = "crates_publish"
+license = "MIT"
+description = "This is a crate made to learn how crates work and the following crate should not be used for any production codebase"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+

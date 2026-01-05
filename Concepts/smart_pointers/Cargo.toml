@@ -1,0 +1,3 @@
+[workspace]
+resolver = "3"
+members = ["boxes", "interior_mutability", "reference_cycle"]
