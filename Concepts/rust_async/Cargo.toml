@@ -1,3 +1,3 @@
 [workspace]
 resolver = "3"
-members = ["channels", "concurrency_async", "hello-async", "shared_ownership","threads"]
+members = ["channels", "concurrency_async", "hello-async", "shared_ownership", "streams","threads"]
