@@ -1,0 +1,52 @@
+   0.006631500s  INFO prepare_target{force=false package_id=advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits) target="advance_traits"}: cargo::core::compiler::fingerprint: fingerprint error for advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits)/Check { test: false }/TargetInner { name: "advance_traits", doc: true, ..: with_path("/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits/src/main.rs", Edition2024) }
+   0.006843250s  INFO prepare_target{force=false package_id=advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits) target="advance_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/target/debug/.fingerprint/advance_traits-41f60e012e98aaa8/bin-advance_traits`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.027019500s  INFO prepare_target{force=false package_id=advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits) target="advance_traits"}: cargo::core::compiler::fingerprint: fingerprint error for advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits)/Check { test: true }/TargetInner { name: "advance_traits", doc: true, ..: with_path("/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits/src/main.rs", Edition2024) }
+   0.027031500s  INFO prepare_target{force=false package_id=advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits) target="advance_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/target/debug/.fingerprint/advance_traits-cbe9a7b0843258c6/test-bin-advance_traits`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: std::backtrace::Backtrace::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+    Checking advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.26s
