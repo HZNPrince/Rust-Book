@@ -1,52 +1,14 @@
-   0.006631500s  INFO prepare_target{force=false package_id=advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits) target="advance_traits"}: cargo::core::compiler::fingerprint: fingerprint error for advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits)/Check { test: false }/TargetInner { name: "advance_traits", doc: true, ..: with_path("/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits/src/main.rs", Edition2024) }
-   0.006843250s  INFO prepare_target{force=false package_id=advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits) target="advance_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/target/debug/.fingerprint/advance_traits-41f60e012e98aaa8/bin-advance_traits`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: std::backtrace::Backtrace::create
-   1: std::backtrace::Backtrace::capture
-   2: cargo_util::paths::read_bytes
-   3: cargo_util::paths::read
-   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
-   5: cargo::core::compiler::fingerprint::prepare_target
-   6: cargo::core::compiler::compile
-   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   8: cargo::ops::cargo_compile::compile_ws
-   9: cargo::ops::cargo_compile::compile_with_exec
-  10: cargo::ops::cargo_compile::compile
-  11: cargo::commands::check::exec
-  12: <cargo::cli::Exec>::exec
-  13: cargo::main
-  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  15: std::rt::lang_start::<()>::{closure#0}
-  16: std::rt::lang_start_internal
-  17: _main
-   0.027019500s  INFO prepare_target{force=false package_id=advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits) target="advance_traits"}: cargo::core::compiler::fingerprint: fingerprint error for advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits)/Check { test: true }/TargetInner { name: "advance_traits", doc: true, ..: with_path("/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits/src/main.rs", Edition2024) }
-   0.027031500s  INFO prepare_target{force=false package_id=advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits) target="advance_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/target/debug/.fingerprint/advance_traits-cbe9a7b0843258c6/test-bin-advance_traits`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: std::backtrace::Backtrace::create
-   1: std::backtrace::Backtrace::capture
-   2: cargo_util::paths::read_bytes
-   3: cargo_util::paths::read
-   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
-   5: cargo::core::compiler::fingerprint::prepare_target
-   6: cargo::core::compiler::compile
-   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
-   8: cargo::ops::cargo_compile::compile_ws
-   9: cargo::ops::cargo_compile::compile_with_exec
-  10: cargo::ops::cargo_compile::compile
-  11: cargo::commands::check::exec
-  12: <cargo::cli::Exec>::exec
-  13: cargo::main
-  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
-  15: std::rt::lang_start::<()>::{closure#0}
-  16: std::rt::lang_start_internal
-  17: _main
-    Checking advance_traits v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_traits)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.26s
+   0.017302750s  INFO prepare_target{force=false package_id=advance_types v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types) target="advance_types"}: cargo::core::compiler::fingerprint: stale: changed "/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types/src/main.rs"
+   0.017480208s  INFO prepare_target{force=false package_id=advance_types v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types) target="advance_types"}: cargo::core::compiler::fingerprint:           (vs) "/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/target/debug/.fingerprint/advance_types-8c572de2d73c955f/dep-bin-advance_types"
+   0.017485542s  INFO prepare_target{force=false package_id=advance_types v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types) target="advance_types"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1768022272, nanos: 183459722 } < FileTime { seconds: 1768024035, nanos: 588616375 }
+   0.017982708s  INFO prepare_target{force=false package_id=advance_types v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types) target="advance_types"}: cargo::core::compiler::fingerprint: fingerprint dirty for advance_types v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types)/Check { test: false }/TargetInner { name: "advance_types", doc: true, ..: with_path("/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types/src/main.rs", Edition2024) }
+   0.018273375s  INFO prepare_target{force=false package_id=advance_types v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types) target="advance_types"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/target/debug/.fingerprint/advance_types-8c572de2d73c955f/dep-bin-advance_types", reference_mtime: FileTime { seconds: 1768022272, nanos: 183459722 }, stale: "/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types/src/main.rs", stale_mtime: FileTime { seconds: 1768024035, nanos: 588616375 } }))
+   0.019440667s  INFO prepare_target{force=false package_id=advance_types v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types) target="advance_types"}: cargo::core::compiler::fingerprint: stale: changed "/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types/src/main.rs"
+   0.019444042s  INFO prepare_target{force=false package_id=advance_types v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types) target="advance_types"}: cargo::core::compiler::fingerprint:           (vs) "/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/target/debug/.fingerprint/advance_types-9db38c850b60cb5a/dep-test-bin-advance_types"
+   0.019449417s  INFO prepare_target{force=false package_id=advance_types v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types) target="advance_types"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1768022272, nanos: 183445222 } < FileTime { seconds: 1768024035, nanos: 588616375 }
+   0.019610500s  INFO prepare_target{force=false package_id=advance_types v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types) target="advance_types"}: cargo::core::compiler::fingerprint: fingerprint dirty for advance_types v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types)/Check { test: true }/TargetInner { name: "advance_types", doc: true, ..: with_path("/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types/src/main.rs", Edition2024) }
+   0.019617625s  INFO prepare_target{force=false package_id=advance_types v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types) target="advance_types"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/target/debug/.fingerprint/advance_types-9db38c850b60cb5a/dep-test-bin-advance_types", reference_mtime: FileTime { seconds: 1768022272, nanos: 183445222 }, stale: "/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types/src/main.rs", stale_mtime: FileTime { seconds: 1768024035, nanos: 588616375 } }))
+    Checking advance_types v0.1.0 (/Users/aster27/Desktop/github/Rust_book/Concepts/advance_features/advance_types)
+error: could not compile `advance_types` (bin "advance_types") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `advance_types` (bin "advance_types" test) due to 1 previous error

@@ -1,3 +1,3 @@
 [workspace]
 resolver = "3"
-members = ["advance_traits","unsafe_rust"]
+members = ["advance_closures_functions","advance_traits", "advance_types", "hello_macro","hello_macro/hello_macro_derive","unsafe_rust"]
