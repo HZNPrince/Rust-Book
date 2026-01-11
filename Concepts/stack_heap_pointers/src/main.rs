@@ -1,16 +1,18 @@
-struct Id{
-    name: String,
+// Stacks heaps pointers
+
+struct Id<'a> {
+    name: &'a str,
     roll_no: i32,
 }
-fn main(){
-    let Prince = Id{
-        name: String::from("Prince Rajendra Mehta"),
+fn main() {
+    let Yuno = Id {
+        name: "Yuno",
         roll_no: 46,
     };
-    let Rahul = Id{
-        name: Prince.name,
+    let Rahul = Id {
+        name: Yuno.name,
         roll_no: 47,
     };
 
-    println!("{}",Prince.name);
+    println!("{}", Yuno.name);
 }
