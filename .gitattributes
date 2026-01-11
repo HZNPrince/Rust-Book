@@ -1,0 +1,3 @@
+*.d linguist-generated=true
+*.mk linguist-generated=true
+Makefile linguist-generated=true
