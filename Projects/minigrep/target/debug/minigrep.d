@@ -1,1 +1,0 @@
-/Users/aster27/Desktop/github/Rust_book/Projects/minigrep/target/debug/minigrep: /Users/aster27/Desktop/github/Rust_book/Projects/minigrep/src/lib.rs /Users/aster27/Desktop/github/Rust_book/Projects/minigrep/src/main.rs

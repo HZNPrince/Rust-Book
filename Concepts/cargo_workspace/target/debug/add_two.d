@@ -1,1 +1,0 @@
-/Users/aster27/Desktop/github/Rust_book/Concepts/cargo_workspace/target/debug/add_two: /Users/aster27/Desktop/github/Rust_book/Concepts/cargo_workspace/add_two/src/lib.rs /Users/aster27/Desktop/github/Rust_book/Concepts/cargo_workspace/add_two/src/main.rs
