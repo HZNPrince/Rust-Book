@@ -1,1 +1,0 @@
-/Users/aster27/Desktop/github/Rust_book/Concepts/final_project/target/debug/final_project: /Users/aster27/Desktop/github/Rust_book/Concepts/final_project/src/lib.rs /Users/aster27/Desktop/github/Rust_book/Concepts/final_project/src/main.rs
